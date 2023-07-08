@@ -1,0 +1,30 @@
+.partner{
+    margin: 100px 0px 50px 0px;
+}
+.partner span{
+    color: #62cb2c;
+}
+
+.partner h1{
+    text-align: center;
+}
+
+.partner img{
+    width: 120px;
+    margin: 30px 30px;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+.partner img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+
+}
+
+.partner-inner-container{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
